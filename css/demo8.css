@@ -49,7 +49,8 @@ h1,
 
 
 /* Card Image Mask Color */
-.cover:after, .card-3d-right-side:after, .card-3d-bottom-side:after, .header:before { background: #375d84; }
+/*.cover:after, .card-3d-right-side:after, .card-3d-bottom-side:after, .header:before { background: #375d84; }*/
+.cover:after, .card-3d-right-side:after, .card-3d-bottom-side:after, .header:before { background: transparent; }
 
 
 /* PRIMARY COLOR */
@@ -108,7 +109,7 @@ button:not(.button):hover,
 
 /* Menu Selected Item Color */
 /*.card-nav li.current_page_item a { color: #ffd561; }*/
-.card-nav li.current_page_item a { color: #000000; }
+.card-nav li.current_page_item a { color: #e35774; }
 
 /* Card Title Background Color */
 .card-info h2 { background: #000000; }
