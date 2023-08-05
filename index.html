@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 </head>
 <body>
 <div class="container">
@@ -15,10 +17,20 @@
 
 
     <div class="video-container">
-        <video id="myVideo" autoplay loop>
+        <video id="myVideo" autoplay loop muted>
             <source src="video/4x5 - NoaAon - Draft 3.mp4" type='video/mp4'>
         </video>
+
+
+
+
+        <div class="content">
+            <button id="myBtn" onclick="myFunction()"><i class="fas fa-volume-mute"></i></button>
+        </div>
+
+
     </div>
+<!--    <button id="playButton">Play Music</button>-->
 
 
 
