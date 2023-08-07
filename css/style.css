@@ -168,17 +168,19 @@ nav li a {
 }
 
 .pic-container {
-    /* position: absolute; */
     width: 461px;
     height: 615px;
     flex-shrink: 0;
+    /* border-radius: 10px; */
+}
+
+.pic-container img {
     border-radius: 10px;
-    background: lightgray 50% / cover no-repeat;
+    object-fit: cover;
 }
 
 .container-left {
     width: 496px;
-    /* position: absolute; */
     height: 666px;
     flex-shrink: 0;
     display: flex;
